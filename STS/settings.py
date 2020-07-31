@@ -83,16 +83,16 @@ WSGI_APPLICATION = 'STS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'STS',
+        'NAME': 'JFAISFendercareSTS',
         'USER': 'dbUser',
         'PASSWORD': '123',
-        'HOST': 'mongodb+srv://dbUser:123@sts.flven.azure.mongodb.net/STS?retryWrites=true&w=majority',
+        'HOST': 'mongodb+srv://dbUser:123@jfaisfendercarests.j5ook.azure.mongodb.net/JFAISFendercareSTS?retryWrites=true&w=majority',
         'SSL' : 'true',
         'TEST': {
             'NAME': 'mytestdatabase',
             'USER': 'dbUser',
             'PASSWORD': '123',
-            'HOST': 'mongodb+srv://dbUser:123@sts.flven.azure.mongodb.net/mytestdatabase?retryWrites=true&w=majority',
+            'HOST': 'mongodb+srv://dbUser:123@jfaisfendercarests.j5ook.azure.mongodb.net/JFAISFendercareSTS?retryWrites=true&w=majority',
             'SSL' : 'true',
         },
 

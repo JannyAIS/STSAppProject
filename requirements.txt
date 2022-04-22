@@ -12,7 +12,7 @@ xhtml2pdf==0.2.4
 reportlab==3.5.46
 six==1.15.0
 html5lib==1.1
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 urllib3==1.25.9
 webencodings==0.5.1
 selenium==3.141.0
